@@ -2,7 +2,6 @@ body {
 	margin: 0;
 	font-family: 'Roboto';
 	font-size: 16px;
-	
 	display: flex;
     flex-direction: column;
     // height: 100vh;
@@ -42,7 +41,7 @@ $apothem: 650px; //中心半径
 		transition: transform 0.5s;
 		transform-origin: 50% 50% (-$apothem);
 		
-		img {
+		a, img {
 			width: 100%;
 			box-sizing: border-box;
 			padding: 0 $item-separation / 2;
